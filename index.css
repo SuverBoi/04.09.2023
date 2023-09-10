@@ -1,40 +1,68 @@
-    body{
-        align-items: center;
-    }
-    .spisok{
-        height: 330px;
-        width: 700px;
-        background-color: rgb(225, 110, 110);
-        margin-top: 200px;
-        margin-left: 350px;
-        /* position: absolute; */
-    }
+.spisok {
+    height: 370px;
+    width: 700px;
+    background-color: #ef9eaf;
+    margin-left: 30%;
+    margin-top: 10%
+}
 
-    .num1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 50px;
-        width: 50px;
-        background-color: rgb(215, 87, 87);
-        margin-left: 25px;
-        /* position: relative; */
-    }
-    
-    .num2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 50px;
-        width: 50px;
-        background-color: rgb(215, 87, 87);
-        margin-right: 25px;
-    }
+.spisok1, .spisok2, .spisok3, .spisok4, .spisok5{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 15px;
+}
 
-    
-    .num1color{
-        color: #ffffff;
-    }
-    .num1color{
-        color: #ffffff;
-    }
+.num1, .num2, .num3, .num4, .num5 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: #c66377;
+    margin-left: 25px;
+}
+
+.num1color, .num2color, .num3color, .num4color, .num5color{
+    color: #ffffff;
+}
+
+.spisok section {
+    background-color: #c66377;
+    margin-left: 0%;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+.spisokapple{
+    background-color: #9f354b;
+    height: 100%;
+    width: 150px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.spisokorange{
+    background-color: #9f354b;
+    height: 100%;
+    width: 180px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.spisokpine{
+    background-color: #9f354b;
+    height: 100%;
+    width: 213px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.spisokpear{
+    background-color: #9f354b;
+    height: 100%;
+    width: 132px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
