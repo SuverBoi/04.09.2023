@@ -66,3 +66,56 @@
     justify-content: center;
     align-items: center;
 }
+
+.mylist{
+    height: 1080px;
+    width: 1100px;
+    background-color: rgb(232, 231, 231);
+    font-weight: 900;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.mylist header{
+    font-size: 25px;
+    margin-left: 100px;
+ 
+}
+.blue, .white, .lightblue {
+    height: 75px;
+    width: 900px;
+    background-color: #a5ccdb;
+    margin-left: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;    
+}
+.white{
+    background-color: #e2e2e2;
+}
+.lightblue{
+    background-color: #add9e6;
+}
+.cubik{
+    margin-top: 35px;
+    font-size: 75px;
+    margin-left: 75px;
+}
+.cubikused{
+    margin-top: 12px;
+    font-size: 33px;
+    margin-left: 75px;
+}
+.blue :nth-child(2), .white :nth-child(2), .lightblue :nth-child(2) {
+    margin-left: 25px;
+}
+.blue :last-child, .white :last-child, .lightblue :last-child {
+    margin-left: 65px;
+    margin-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(171, 5, 5);
+
+}
+p{
+    text-decoration: line-through;
+    font-size: 32px;
+}
